@@ -1,0 +1,10 @@
+.container {
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-column {
+    min-width: 40rem;
+}
