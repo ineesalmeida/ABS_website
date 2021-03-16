@@ -11,8 +11,8 @@ function Navbar() {
             </div>
             <div className="navbar__container">
                 <Link to="/about" className="navbar__item">About</Link>
-                <a href="#" className="navbar__item disabled">Steam Store</a>
-                <a href="#" className="navbar__item disabled">Oculus Store</a>
+                <Link to="/about" className="navbar__item disabled">Steam Store</Link>
+                <aLink to="/about" className="navbar__item disabled">Oculus Store</Link>
             </div>
         </div>
     );
