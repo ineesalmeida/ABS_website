@@ -4,7 +4,7 @@ import './Logo.style.css';
 function Logo() {
     return (
         <div className="logo">
-            <h1>Australian Barbecue Survival</h1>
+            <h1>Beers & Boomerangs</h1>
         </div>
     );
 }
