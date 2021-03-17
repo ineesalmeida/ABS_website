@@ -12,7 +12,7 @@ function MainPage() {
       </ContainerColumn>
       <ContainerColumn key="right">
         <h2 className="header_title">
-          <span>You are having a Barbecue bandut </span>
+          <span>You are having a Barbecue but </span>
           <span className="emphasis_1">kangaroos are trying to</span>
           <span className="emphasis_2">steal your beer!</span>
         </h2>
