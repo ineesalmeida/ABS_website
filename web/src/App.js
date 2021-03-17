@@ -5,14 +5,14 @@ import MailingListCall from './components/MailingListCall/MailingListCall.compon
 import Gallery from './components/Gallery/Gallery.component';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import front_page_img from './assets/img/front-page.png';
-import screenshot_1 from './assets/img/screenshot_1.png';
-import screenshot_2 from './assets/img/screenshot_2.png';
+// import screenshot_1 from './assets/img/screenshot_1.png';
+// import screenshot_2 from './assets/img/screenshot_2.png';
 import screenshot_3 from './assets/img/screenshot_3.png';
-import screenshot_4 from './assets/img/screenshot_4.png';
-import screenshot_5 from './assets/img/screenshot_5.png';
-import screenshot_6 from './assets/img/screenshot_6.png';
-import screenshot_7 from './assets/img/screenshot_7.png';
-import screenshot_8 from './assets/img/screenshot_8.png';
+// import screenshot_4 from './assets/img/screenshot_4.png';
+// import screenshot_5 from './assets/img/screenshot_5.png';
+// import screenshot_6 from './assets/img/screenshot_6.png';
+// import screenshot_7 from './assets/img/screenshot_7.png';
+// import screenshot_8 from './assets/img/screenshot_8.png';
 
 function MainPage() {
   return (
