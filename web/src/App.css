@@ -7,6 +7,11 @@ body {
   font-size: calc(10px + 1.5vmin);
   color: white;
   min-height: 100vh;
+  font-family: 'Open Sans';
+}
+
+h1, h2, h3 {
+  font-family: 'Staatliches';
 }
 
 .header_title {
@@ -15,14 +20,25 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
+  line-height: 2em;
 }
 
 .emphasis_1 {
   font-weight: 600;
-  font-size: 1.2em;
+  font-size: 2em;
 }
 
 .emphasis_2 {
   font-weight: 800;
-  font-size: 1.2em;
+  font-size: 2em;
+}
+
+.font_page_image {
+  position: relative;
+  width: 100%;
+}
+
+.font_page_image img {
+  width: 90%;
+  margin-top: -2rem;
 }

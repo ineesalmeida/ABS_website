@@ -30,9 +30,20 @@
     height: 2.5rem;
     left: -0.7rem;
     bottom: 15rem;
-    transform: rotate(-90deg);
-    transition: bottom 0.3s ease-in-out;
+    transform: rotate(500deg);
+    transition: all 0.4s cubic-bezier(.54,-0.29,.36,1.38);
 }
 .navbar__item:hover::before {
     bottom: 0rem;
+    transform: rotate(-90deg);
+}
+
+.navbar__item.disabled {
+    color: rgba(100, 100, 100, 0.3);
+    pointer-events: none;
+    cursor: default;
+}
+
+.logo_link {
+    text-decoration: none;
 }
