@@ -14,14 +14,9 @@ function Navbar() {
             link: 'mailto:contact@beersandboomerangs.com',
         },
         {
-            keyword: 'Instagram',
-            icon: 'fab fa-instagram',
-            link: 'https://www.instagram.com/inees_almeida/',
-        },
-        {
             keyword: 'Twitter',
             icon: 'fab fa-twitter',
-            link: 'https://www.instagram.com/inees_almeida/',
+            link: 'https://twitter.com/jdiogobc/',
         },
     ]
 
