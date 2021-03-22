@@ -1,0 +1,15 @@
+.social__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social__icon {
+    font-size: 1.7em;
+    padding-right: 0.8rem;
+    padding-bottom: 0.3rem;
+}
+
+.social__icon a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
