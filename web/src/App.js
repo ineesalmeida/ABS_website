@@ -64,18 +64,16 @@ function AboutPage() {
 function App() {
   return (
     <Router>
-      <div className="App">
-        <header className="App-header">
-          <Navbar />
-          <Switch>
-            <Route path="/about">
-              <AboutPage />
-            </Route>
-            <Route path="/">
-              <MainPage />
-            </Route>
-          </Switch>
-        </header>
+      <Navbar />
+      <div className="body_container">
+        <Switch>
+          <Route path="/about">
+            <AboutPage />
+          </Route>
+          <Route path="/">
+            <MainPage />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );

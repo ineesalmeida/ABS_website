@@ -1,4 +1,7 @@
 .logo h1 {
+    font-size: 3em;
     color: white;
     text-transform: uppercase;
+    margin-bottom: 1rem;
+    line-height: 1em;
 }

@@ -1,13 +1,43 @@
+:root {
+  --bp-largest: 75em;
+  --bp-large: 68.75em;
+  --bp-medium: 56.25em;
+  --bp-small: 37.5em;
+  --bp-smallest: 31.25em;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
   background-color: #fae6a4;
 }
 
 body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.6;
   background-image: linear-gradient(#FFCB1F, #E0AC00);
   font-size: calc(10px + 1.5vmin);
   color: white;
   min-height: 100vh;
-  font-family: 'Open Sans';
+}
+
+.body_container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
 }
 
 h1, h2, h3 {
@@ -41,5 +71,5 @@ h1, h2, h3 {
 
 .font_page_image img {
   width: 90%;
-  margin-top: -2rem;
 }
+
