@@ -14,11 +14,6 @@ function Navbar() {
             link: 'mailto:contact@beersandboomerangs.com',
         },
         {
-            keyword: 'Discord',
-            icon: 'fab fa-discord',
-            link: 'mailto:contact@beersandboomerangs.com',
-        },
-        {
             keyword: 'Twitter',
             icon: 'fab fa-twitter',
             link: 'https://twitter.com/jdiogobc/',
