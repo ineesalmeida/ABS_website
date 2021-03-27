@@ -1,0 +1,34 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.team__item {
+    padding: 1rem;
+    max-width: 20rem;
+    margin: 1rem 3rem;
+    text-align: center;
+}
+
+.team__img img{
+    width: 90%;
+    border-radius: 99px;
+}
+
+.team__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+
+.team__item p {
+   line-height: 1em;
+}
+
+.team__item small {
+    font-size: 0.5em;
+}
