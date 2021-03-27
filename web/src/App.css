@@ -38,7 +38,7 @@ body {
 .body_container {
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.2rem;
 }
 
 h1, h2, h3 {
@@ -46,6 +46,7 @@ h1, h2, h3 {
   letter-spacing: 1px;
 }
 
+/* FRONT PAGE */
 .header_title {
   text-transform: uppercase;
   font-weight: 400;
@@ -53,18 +54,16 @@ h1, h2, h3 {
   display: flex;
   flex-direction: column;
   justify-content: stretch;
-  line-height: 2em;
+  line-height: 1.8em;
+}
+.header_subtitle {
+  margin: 2rem 0;
+  font-size: 0.9em;
 }
 
-/* FRONT PAGE */
 .emphasis_1 {
   font-weight: 600;
-  font-size: 2em;
-}
-
-.emphasis_2 {
-  font-weight: 800;
-  font-size: 2em;
+  font-size: 1.9em;
 }
 
 .font_page_image {

@@ -11,12 +11,18 @@ export default function MainPage() {
                 </div>
             </ContainerColumn>
             <ContainerColumn key="right">
-                <h2 className="header_title">
-                    <span>You are having a Barbecue but </span>
-                    <span className="emphasis_1">kangaroos are trying to steal your beer!</span>
-                </h2>
+                <div>
+                    <h2 className="header_title">
+                        <span>You are having a Barbecue but </span>
+                        <span className="emphasis_1">kangaroos are trying to steal your beer!</span>
+                    </h2>
+                    <p className="header_subtitle">
+                        A VR video game under-development.<br />
+                        <b>Release Date:</b> probably end of 2021
+                    </p>
+                </div>
                 <MailingListCall />
             </ContainerColumn>
-        </Container>
+        </Container >
     )
 }

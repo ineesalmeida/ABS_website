@@ -1,8 +1,8 @@
 import './SocialMedia.style.css';
 
-export function SocialMediaItem({ keyword, icon, link }) {
+export function SocialMediaItem({ keyword, icon, link, style }) {
     return (
-        <div className="social__icon">
+        <div className="social__icon" style={style}>
             <a href={link} target="_blank" rel="noreferrer">
                 <i className={icon} title={keyword} aria-label={"Go to " + keyword} />
             </a>

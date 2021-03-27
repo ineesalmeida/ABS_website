@@ -9,11 +9,6 @@ function Navbar() {
 
     let social_media = [
         {
-            keyword: 'Email',
-            icon: 'far fa-envelope',
-            link: 'mailto:contact@beersandboomerangs.com',
-        },
-        {
             keyword: 'Twitter',
             icon: 'fab fa-twitter',
             link: 'https://twitter.com/jdiogobc/',
