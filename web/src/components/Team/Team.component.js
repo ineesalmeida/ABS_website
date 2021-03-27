@@ -43,7 +43,7 @@ export default function Team() {
         <div className="team">
             <div className="team__item">
                 <div className="team__img">
-                    <img src="https://pbs.twimg.com/profile_images/488710497500274688/K2v3ZCF__400x400.jpeg" />
+                    <img src="https://pbs.twimg.com/profile_images/488710497500274688/K2v3ZCF__400x400.jpeg" alt="Ines" />
                 </div>
                 <p><b>Diogo Cunha</b></p>
                 <p><small>diogo@beersandboomerangs.com</small></p>
@@ -53,7 +53,7 @@ export default function Team() {
             </div>
             <div className="team__item">
                 <div className="team__img">
-                    <img src="https://ines-almeida.com/me.jpg" />
+                    <img src="https://ines-almeida.com/me.jpg" alt="Diogo" />
                 </div>
                 <p><b>Inês Almeida</b></p>
                 <p><small>ines@beersandboomerangs.com</small></p>
