@@ -1,15 +1,27 @@
 .social__container {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 1rem;
 }
 
 .social__icon {
-    font-size: 1.7em;
-    padding-right: 0.8rem;
-    padding-bottom: 0.3rem;
+    margin-right: 1.2rem;
+    width: 3.8rem;
+    height: 3.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .social__icon a {
+    font-size: 1.6em;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
+    transition: all 0.2s ease-in-out;
+}
+
+.social__icon a:hover {
+    font-size: 1.7em;
+    color: rgba(255, 255, 255, 1);
+    transform: translate(0, -.3rem);
 }

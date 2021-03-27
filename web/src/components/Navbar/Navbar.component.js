@@ -10,7 +10,12 @@ function Navbar() {
     let social_media = [
         {
             keyword: 'Email',
-            icon: 'fas fa-envelope-square',
+            icon: 'far fa-envelope',
+            link: 'mailto:contact@beersandboomerangs.com',
+        },
+        {
+            keyword: 'Discord',
+            icon: 'fab fa-discord',
             link: 'mailto:contact@beersandboomerangs.com',
         },
         {

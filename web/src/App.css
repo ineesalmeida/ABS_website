@@ -32,6 +32,7 @@ body {
   font-size: calc(10px + 1.5vmin);
   color: white;
   min-height: 100vh;
+  position: relative;
 }
 
 .body_container {
@@ -48,12 +49,14 @@ h1, h2, h3 {
 .header_title {
   text-transform: uppercase;
   font-weight: 400;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: stretch;
   line-height: 2em;
 }
 
+/* FRONT PAGE */
 .emphasis_1 {
   font-weight: 600;
   font-size: 2em;
@@ -73,3 +76,44 @@ h1, h2, h3 {
   width: 90%;
 }
 
+/* POLICY PAGE */
+.policy_text {
+  padding: 0.5rem 3rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.policy_text h2 {
+  margin-top: 3rem;
+}
+
+.policy_image {
+  position: relative;
+  width: 100%;
+}
+
+.policy_image img {
+  width: 90%;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+}
+
+.policy_link {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.65em;
+  position: absolute;
+  bottom: 1rem;
+  right: 3rem;
+}
+
+
+@media only screen and (min-width: 2000px) {
+  body {
+    font-size: 2.8rem;
+    background-color: green;
+  }
+}  

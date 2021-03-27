@@ -110,3 +110,10 @@
         transform: rotate(-90deg);
     }
 }
+
+@media only screen and (min-width: 2000px) {
+
+    .navbar {
+        height: 18rem;
+    }
+  }  

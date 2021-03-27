@@ -4,6 +4,8 @@
     padding: 2rem 4rem;
     border-radius: 2rem;
     margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
 }
 
 .mailing_list_call__title {
@@ -67,3 +69,10 @@
 .form_item .button:active {
     transform: translateY(-1px);
 }
+
+
+@media only screen and (max-width: 600px) {
+    .mailing_list_call {
+        margin-bottom: 2rem;
+    }
+}  

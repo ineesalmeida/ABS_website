@@ -39,10 +39,10 @@ class MailingListCall extends React.Component {
 
         return (
             <div className="mailing_list_call">
+                <h2 className="mailing_list_call__text">Want first-hand updates?</h2>
                 <h2 className="mailing_list_call__title">Join our mailing list!</h2>
                 {was_submitted ? successfull_submission : email_form}
-                <p className="mailing_list_call__text">We will try to send updates every other week (or whenever we have something interesting to show!). Be the first to know of the latest news and release dates!</p>
-                <p className="mailing_list_call__text">You can unsubscribe anytime</p>
+                <p className="mailing_list_call__text">We will only send emails when there are major news about the development and release of the game. Unsubscribe anytime</p>
             </div>
         );
     }
