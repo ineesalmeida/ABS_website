@@ -37,6 +37,7 @@ function Navbar() {
                     <SocialMedia social_media_items={social_media} />
                 </div>
                 <div className="navbar__links">
+                    <Link to="/" className="navbar__item">Home</Link>
                     <Link to="/about" className="navbar__item">About</Link>
                     <Link to="/about" className="navbar__item disabled">Steam</Link>
                     <Link to="/about" className="navbar__item disabled">Oculus Store</Link>
