@@ -1,4 +1,3 @@
-import Gallery from '../components/Gallery/Gallery.component';
 import { Container, ContainerColumn } from '../components/Container/Container.component';
 import Team from '../components/Team/Team.component';
 import about_page_img from '../assets/img/about-page.png';
