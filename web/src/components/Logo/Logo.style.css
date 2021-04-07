@@ -1,7 +1,8 @@
-.logo h1 {
-    font-size: 3em;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 1rem;
-    line-height: 1em;
+.logo {
+    height: 14rem;
+}
+
+.logo__img {
+    object-fit: cover;
+    height: 100%;
 }

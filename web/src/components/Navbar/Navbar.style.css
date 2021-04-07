@@ -18,9 +18,8 @@
     flex-wrap: nowrap;
     flex: 1;
 }
-
-.navbar__container.logo {
-    padding-top: 3rem;
+.navbar__container.left-aligned {
+    align-items: flex-start;
 }
 
 .navbar__item {

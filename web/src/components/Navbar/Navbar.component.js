@@ -17,7 +17,7 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <div className="navbar__container logo">
+            <div className="navbar__container logo left-aligned">
                 <Link to="/" className="logo_link">
                     <Logo />
                 </Link>
